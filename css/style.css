@@ -335,6 +335,6 @@ input {
 .icons a:hover:before{
     background-color: #b5a263;
     border: solid 1px #b5a263;
-    color: red;
+    color: blue;
 }
 
