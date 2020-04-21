@@ -8,11 +8,6 @@ header{
     background-color: #24282f;
     padding-top: 30px;
 }
-header .logo:before{
-    font-family: 'Font Awesome 5 Brands';
-    display: inline-block;
-    content: "\f17d";
-}
 .container{
     max-width: 1100px;
     margin: auto;
@@ -148,9 +143,9 @@ h2:after{
  .social {
      float: right;
  }
-.social a:before{
+.social a:before {
     font-family: 'Font Awesome 5 Brands';
-    margin: 0 0 0 6px ;
+    margin: 0 0 0 6px;
     display: inline-block;
     width: 28px;
     background-color: #dedede;
@@ -160,10 +155,10 @@ h2:after{
     vertical-align: top;
     font-size: 14px;
     color: white;
-}.social a{
+}
+.social a{
     text-decoration: none;
  }
-
 .social a:nth-child(1):before{
     content: "\f39e";
 }
@@ -202,7 +197,7 @@ h2:after{
 .client h2:after{
     background-color: #24282f;
 }
-.client img{
+.client .img {
     margin-bottom: 30px;
 }
 .client p{
@@ -335,6 +330,30 @@ input {
 .icons a:hover:before{
     background-color: #b5a263;
     border: solid 2px #b5a263;
-    color: #b5a263;
+    color: white;
+}
+.owl-prev{
+    position: absolute;
+    left: 158px;
+}
+.owl-next{
+    position: absolute;
+    right: 158px;
+}
+.owl-prev:before{
+    content: "\f104";
+    font-weight: 900;
+    display: block;
+    font-family: 'Font Awesome 5 Brands';
+    color: #383b42;
+    font-size: 14px;
+}
+.owl-next:after {
+    font-family: 'Font Awesome 5 Brands';
+    content: "\f105";
+    font-weight: 900;
+   display: block;
+    color: #383b42;
+    font-size: 14px;
 }
 
